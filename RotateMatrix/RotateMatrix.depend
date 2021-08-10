@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1627122051 source:d:\learning\data-structure-abdul-bari\rotatematrix\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

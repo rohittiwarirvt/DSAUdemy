@@ -5,10 +5,15 @@ function insertionSort(input) {
   let length = input.length;
   for ( let i =0; i < length; i++) {
     if ( input[i] < input[0]) {
+      debugger;
       input.unshift(input.splice(i,1)[0]);
     } else {
       if (input[i] < input[i-1]) {
+      debugger;
+
         for (let j = 1; j < i ; j++) {
+          debugger;
+
           if ( input[i] >= input[j-1] && input[i] < input[j]) {
             input.splice(j, 0, input.splice(i, 1)[0])
           }
@@ -16,6 +21,22 @@ function insertionSort(input) {
       }
     }
 
+  }
+
+  return input;
+}
+
+function insertionSort(input) {
+  let length = input.length;
+  for ( let i =0; i < length; i++) {
+      if (input[i] < input[i-1]) {
+        for (let j = 1; j < i ; j++) {
+          if ( input[i] >= input[j-1] && input[i] < input[j]) {
+            input.splice(j, 0, input.splice(i, 1)[0])
+          }
+        }
+
+    }
   }
 
   return input;

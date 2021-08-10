@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1622999109 source:d:\learning\data-structure-abdul-bari\treestructqueue\main.cpp
+	<iostream>
+	"Queue.h"
+
+1622998453 d:\learning\data-structure-abdul-bari\treestructqueue\queue.h
+

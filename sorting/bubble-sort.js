@@ -11,4 +11,21 @@ function bubbleSort(input) {
       }
     }
   }
+  return input;
 }
+
+function bubbleSortD(input) {
+  let length = input.length;
+  for ( let i=0; i < length; i++) {
+    for (let j =0; j < length; j++ ) {
+      if ( input[j] < input[j+1]) {
+        let temp = input[j];
+        input[j] = input[j + 1];
+        input[j+1] = temp;
+      }
+    }
+  }
+  return input;
+}
+
+bubbleSortD(input);

@@ -30,3 +30,16 @@ function reverseStringRecursive( str) {
 
 console.log(reverseStringRecursive('papatiwari'));
 console.log(reverseString('papatiwari'));
+
+function revS( str) {
+  let rvalue;
+  debugger;
+  if (str === "") {
+    return;
+  } else {
+     let value = revS(str.substr(1));
+     rvalue = value + str.charAt(0);
+  }
+
+  return rvalue;
+}

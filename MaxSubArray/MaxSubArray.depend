@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1627040487 source:d:\learning\data-structure-abdul-bari\maxsubarray\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

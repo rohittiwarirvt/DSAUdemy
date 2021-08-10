@@ -61,7 +61,7 @@ class BinarySearchTree {
     this.root = this.removeNode(this.root, value);
   }
 
-  // recursisve function to insert new value in binary search treee;
+  // recursisve function to remove new value in binary search treee;
   removeNode(current, value) {
 
     // base case if the tree is empty.

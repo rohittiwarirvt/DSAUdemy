@@ -29,7 +29,7 @@ console.log(firstOccurenceOfP1([2,3,4,5]));
 function firstOccurenceOfP2(arr) {
   const hashMap = {};
   for (let i =0; i< arr.length; i++) {
-    if( hashMap[arr[i]] === 'udefined') {
+    if( hashMap[arr[i]] === 'undefined') {
       hashMap[arr[i]] = true;
     } else {
       return arr[i];

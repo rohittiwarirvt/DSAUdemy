@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1626798251 source:d:\learning\data-structure-abdul-bari\bfsgraph\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	"Queue.h"
+
+1626798220 d:\learning\data-structure-abdul-bari\bfsgraph\queue.h
+
